@@ -1,0 +1,28 @@
+Checking account: C100 | Holder: Jareth Franco | Balance: $621.00
+
+Checking transaction history (C100)
+2026-10-19 17:46:07 UTC | Deposit | $200.00
+2026-10-19 17:46:07 UTC | Withdrawal | $102.00
+2026-10-19 17:46:07 UTC | Deposit | $50.00
+2026-10-19 17:46:07 UTC | Withdrawal | $27.00
+Savings account: S100 | Holder: Jareth Franco | Balance: $1134.50
+
+Savings transaction history (S100)
+2026-10-19 17:46:07 UTC | Deposit | $300.00
+2026-10-19 17:46:07 UTC | Withdrawal | $150.00
+2026-10-19 17:46:07 UTC | Deposit | $34.50
+2026-10-19 17:46:07 UTC | Withdrawal | $50.00
+Composition Lab - Jareth Franco
+
+Bank Account Management
+1. Create account
+2. List accounts
+3. Deposit (+=)
+4. Withdraw (-=)
+5. Change account holder name
+6. Compare accounts (==, <, >)
+7. Demonstrate deep copies
+8. Add savings interest
+9. Demonstrate polymorphic withdrawals
+0. Exit
+Choose an option: Goodbye!
