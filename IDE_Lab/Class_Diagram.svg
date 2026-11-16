@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="440" viewBox="0 0 1040 440"><title>Book and Page class diagram</title><rect width="1040" height="440" fill="#f6f8fa"/><g font-family="monospace" font-size="14" fill="#192d40"><rect x="18" y="20" width="480" height="352" fill="white" stroke="#25384b"/><path d="M18 56h480 M18 138h480" stroke="#25384b"/><text x="32" y="44">Book</text><text x="32" y="76">- title: string</text>
+<text x="32" y="100">- author: string</text>
+<text x="32" y="124">- currentPage: Page</text><text x="32" y="158">+ Book()</text>
+<text x="32" y="182">+ Book(t: string, a: string)</text>
+<text x="32" y="206">+ setTitle(t: string): void</text>
+<text x="32" y="230">+ getTitle(): string</text>
+<text x="32" y="254">+ setAuthor(a: string): void</text>
+<text x="32" y="278">+ getAuthor(): string</text>
+<text x="32" y="302">+ setPageDetails(pageNum: int, pageContent: string): void</text>
+<text x="32" y="326">+ getCurrentPageNumber(): int</text>
+<text x="32" y="350">+ getCurrentPageContent(): string</text><rect x="670" y="70" width="352" height="256" fill="white" stroke="#25384b"/><path d="M670 106h352 M670 164h352" stroke="#25384b"/><text x="684" y="94">Page</text><text x="684" y="126">- pageNumber: int</text>
+<text x="684" y="150">- content: string</text><text x="684" y="184">+ Page()</text>
+<text x="684" y="208">+ Page(num: int, text: string)</text>
+<text x="684" y="232">+ setPageNumber(num: int): void</text>
+<text x="684" y="256">+ getPageNumber(): int</text>
+<text x="684" y="280">+ setContent(text: string): void</text>
+<text x="684" y="304">+ getContent(): string</text><path d="M498 188l12 -7 12 7 -12 7z" fill="#25384b"/><path d="M522 188H670" stroke="#25384b"/><text x="543" y="177">currentPage</text><text x="652" y="208">1</text></g></svg>
